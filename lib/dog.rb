@@ -8,9 +8,10 @@ class Dog
 
   def initialize(name)
     save
+    @name = name
   end
 
-attr_accessor :name
+attr_reader :name
 
   def self.print_all
     @@all.each {|n| puts "#{n.name}"}
