@@ -6,14 +6,14 @@ class Dog
     @@all
   end
   def initialize
-    save(self)
+    save
   end
 
   def self.print_all
     @@all.each {|n| puts "#{n}"}
   end
 
-  def save(self)
+  def save
     @@all << self
   end
 end
