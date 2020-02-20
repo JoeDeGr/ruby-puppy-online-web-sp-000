@@ -13,6 +13,10 @@ class Dog
     @@all.each {|n| puts "#{n}"}
   end
 
+  def self.clear_all
+    @@all.clear
+  end
+
   def save
     @@all << self
   end
