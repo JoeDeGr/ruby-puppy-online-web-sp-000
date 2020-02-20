@@ -11,7 +11,7 @@ class Dog
   end
 attr_reader :name
   def self.print_all
-    @@all.each {|n| puts "#{n.@name}"}
+    @@all.each {|n| puts "#{n.name}"}
   end
 
   def self.clear_all
