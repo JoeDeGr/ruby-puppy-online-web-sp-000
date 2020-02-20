@@ -5,8 +5,8 @@ class Dog
   def self.all
     @@all
   end
-  def initialize
-    save
+  def initialize(name)
+    save(name)
   end
 
   def self.print_all
