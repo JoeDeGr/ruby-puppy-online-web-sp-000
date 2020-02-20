@@ -9,7 +9,7 @@ class Dog
     save
     @name = name
   end
-
+attr_reader :name
   def self.print_all
     @@all.each {|n| puts "#{n}"}
   end
