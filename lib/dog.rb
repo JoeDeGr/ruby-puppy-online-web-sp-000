@@ -11,7 +11,7 @@ class Dog
     @name = name
   end
 
-attr_reader :name
+attr_accessor :name
 
   def self.print_all
     @@all.each {|n| puts "#{n.name}"}
